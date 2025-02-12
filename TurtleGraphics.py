@@ -15,7 +15,7 @@ def drawSquare(myTurtle, size):
 
 def drawSquareConcentric(myTurtle, size):
     myTurtle.penup()
-    myTurtle.goto(-size / 100000, size / 2)  
+    myTurtle.goto(-size / 100000000, size / 2)  
     myTurtle.pendown()
     for i in range(4):
         myTurtle.forward(size)
