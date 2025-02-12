@@ -91,15 +91,15 @@ def main():
     myTurtle.pendown()
     fillCorner(myTurtle, 3)
 
-    # Draw concentric squares with 5 squares
+
     myTurtle.penup()
-    myTurtle.goto(0, 0)  # Center the squares
+    myTurtle.goto(0, 0)
     myTurtle.pendown()
     squaresInSquares(myTurtle, 5)  # Draws 5 concentric squares
 
-    # Reset position and draw 3 concentric squares in a new location
+  
     myTurtle.penup()
-    myTurtle.goto(200, 0)  # Move to a new position
+    myTurtle.goto(200, 0) 
     myTurtle.pendown()
     squaresInSquares(myTurtle, 3)  # Draws 3 concentric squares
 
